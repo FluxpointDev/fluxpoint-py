@@ -26,7 +26,7 @@ asyncio.run(main());
 > Documentation over SFW library methods.
 
 
-## SFW Image Methods
+### SFW Image Methods
 
 
 * `client.sfw.getNekoImage();`      ->     Method to get SFW neko image from the API. 
@@ -48,7 +48,7 @@ asyncio.run(main());
 * `client.sfw.getLizardImage();`    ->     Method to get a random lizard image from the API. 
 
 
-## SFW GIF Methods
+### SFW GIF Methods
 
 
 ---

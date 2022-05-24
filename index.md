@@ -14,3 +14,18 @@ async def main():
     print(res.file);
 asyncio.run(main());
 ```
+
+---
+
+# NSFW
+> Documentation over NSFW library methods.
+
+---
+
+# SFW
+> Documentation over SFW library methods.
+
+---
+
+# ImageGen
+> Documentation over ImageGen library methods.

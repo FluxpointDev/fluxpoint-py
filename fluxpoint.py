@@ -246,7 +246,71 @@ class FluxpointClient:
         async def getCryGif(self):
             return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/cry")
 
-        
+        async def getDanceGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/dance");
+
+        async def getFeedGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/feed");
+
+        async def getFluffGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/fluff");
+
+        async def getGrabGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/grab");
+
+        async def getHandholdGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/handhold");
+
+        async def getHighfiveGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/highfive");
+
+        async def getHugGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/hug");
+
+        async def getKissGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/kiss");
+
+        async def getLickGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/lick");
+
+        async def getNekoGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/neko");
+
+        async def getPatGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/pat");
+
+        async def getPokeGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/poke");
+
+        async def getPunchGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/punch");
+
+        async def getShrugGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/shrug");
+
+        async def getSlapGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/slap");
+
+        async def getSmugGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/smug");
+
+        async def getStareGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/stare");
+
+        async def getTickleGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/tickle");
+
+        async def getWagGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/wag");
+
+        async def getWastedGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/wasted");
+
+        async def getWaveGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/wave");
+
+        async def getWinkGif(self):
+            return await self.__req("https://gallery.fluxpoint.dev/api/sfw/gif/wink");
            
     class __ImageGen:
         def __init__(self, token: str):
@@ -315,3 +379,4 @@ class FluxpointClient:
                 bodyData["color_members"] = kwargs["color_members"];
             
             return await self.__req("https://api.fluxpoint.dev/gen/welcome", body = bodyData);
+        

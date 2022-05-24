@@ -1,4 +1,5 @@
 <link rel="shortcut icon" type="image/x-icon" href="https://fluxpoint.dev/img/icons/fluxpoint.png">
+
 # Library
 > `fluxpoint-py` is a library built in Python-3 by [kunosyn](https://github.com/kunosyn) made for easier interacting with the [Fluxpoint API](https://bluedocs.page/fluxpoint-api/).
 

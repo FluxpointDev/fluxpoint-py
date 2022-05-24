@@ -20,7 +20,7 @@ asyncio.run(main());
 ---
 
 # NSFW
-> Documentation over NSFW library methods.
+> Documentation over NSFW library methods. \
 *Not documented yet...*
 
 ---
@@ -83,5 +83,5 @@ asyncio.run(main());
 ---
 
 # ImageGen
-> Documentation over ImageGen library methods.
+> Documentation over ImageGen library methods. \
 *Not documented yet...*
